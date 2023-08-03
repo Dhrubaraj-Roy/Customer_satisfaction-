@@ -26,6 +26,5 @@ def train_model(
     except Exception as e:
         logging.error("error training: {}".format(e))
         raise e
-    raise ValueError(f"Model {config.model_name} is not supported")
 
 
