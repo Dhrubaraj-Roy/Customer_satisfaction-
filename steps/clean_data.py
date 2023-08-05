@@ -1,10 +1,11 @@
 import logging
-import pandas as pd      
-from src.data_cleaning import DataCleaning , DataDivideStrategy, DataPreProcessStrategy
-from zenml  import step
-from typing import Tuple
-from typing_extensions import Annotated
+import pandas as pd  
+from zenml  import step    
+from src.data_cleaning import DataCleaning , DataDivideStrategy, DataPreprocessStrategy
 
+
+from typing_extensions import Annotated
+from typing import Tuple
 @step
 def clean_df(df: pd.DataFrame) -> Tuple[
     Annotated[pd.DataFrame, "X_train"],
@@ -13,16 +14,20 @@ def clean_df(df: pd.DataFrame) -> Tuple[
     Annotated[pd.Series, "y_test"],
 
 ] :
-    try:   
-        process_staregy = DataPreprocessStrategy()
-        data_cleaning = DataCleaning(df, process_staregy)
-        processed_data = DataCleaning.handle_data()
+    """Data cleaning class which preprocesses the data and divides it into train and test data.
 
-        divide_staregy = DataDivideStaregy()
-        data_cleaning = DataCleaning(processed_data, divide_staregy)
+    Args:
+        data: pd.DataFrame
+    """
+    try:
+        preprocess_strategy = DataPreprocessStrategy()
+        data_cleaning = DataCleaning(df, preprocess_strategy)
+        preprocessed_data = data_cleaning.handle_data()
+
+        divide_strategy = DataDivideStrategy()
+        data_cleaning = DataCleaning(preprocessed_data, divide_strategy)
         X_train, X_test, y_train, y_test = data_cleaning.handle_data()
-        logging.info("Data cleaning completed")
         return X_train, X_test, y_train, y_test
     except Exception as e:
-        logging.error("Error in cleaning {}".format(e))
+        logging.error(e)
         raise e

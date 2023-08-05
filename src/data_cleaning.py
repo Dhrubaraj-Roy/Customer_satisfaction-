@@ -1,6 +1,7 @@
 import logging
 from abc import ABC, abstractmethod
 from typing import Union
+
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -53,7 +54,7 @@ class DataDivideStrategy(DataStrategy):
     """
     Data dividing strategy which divides the data into train and test data.
     """
-
+ 
     def handle_data(self, data: pd.DataFrame) -> Union[pd.DataFrame, pd.Series]:
         """
         Divides the data into train and test data.
@@ -74,7 +75,7 @@ class DataCleaning:
     Data cleaning class which preprocesses the data and divides it into train and test data.
     """
     
-    def __init__(self, data: pd.DataFrame, strategy:DataStrategy):
+    def __init__(self, data: pd.DataFrame, strategy:DataStrategy) -> None:
         self.data = data
         self.strategy = strategy
     def handle_data(self) -> Union[pd.DataFrame, pd.Series]:

@@ -2,10 +2,13 @@ import logging
 from abc import ABC, abstractmethod
 
 import numpy as np
-from sklearn.base import r2_score
+
 from sklearn.metrics import mean_squared_error, r2_score
 
 class Evaluation(ABC):
+    """
+    Abstract Class defining the strategy for evaluating model performance
+    """
     @abstractmethod
     def calculate_scores(self, y_true: np.ndarray, y_pred: np.ndarray):
         pass
