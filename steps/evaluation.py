@@ -1,11 +1,14 @@
 import logging
+from typing import  Tuple
 import mlflow
-from multiprocessing.connection import Client
 import pandas as pd
+from multiprocessing.connection import Client
+
 from sklearn.base import RegressorMixin
 from typing_extensions import Annotated
 from zenml import step
-from typing import  Tuple
+from zenml.client import Client
+
 from src.evaluation import MSE, R2, RMSE
 
 experiment_tracker = Client().active_stack.experiment_tracker

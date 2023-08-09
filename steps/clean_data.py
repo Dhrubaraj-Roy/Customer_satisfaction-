@@ -22,11 +22,15 @@ def clean_df(df: pd.DataFrame) -> Tuple[
     try:
         preprocess_strategy = DataPreprocessStrategy()
         data_cleaning = DataCleaning(df, preprocess_strategy)
+        print(df.columns)
         preprocessed_data = data_cleaning.handle_data()
+        print(preprocessed_data.head)
+        print(preprocessed_data.columns)
 
         divide_strategy = DataDivideStrategy()
         data_cleaning = DataCleaning(preprocessed_data, divide_strategy)
         X_train, X_test, y_train, y_test = data_cleaning.handle_data()
+        print(X_train.shape, y_train.shape)
         return X_train, X_test, y_train, y_test
     except Exception as e:
         logging.error(e)

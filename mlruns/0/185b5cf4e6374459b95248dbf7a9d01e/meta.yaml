@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/roydh/Desktop/ML2023/MLOps%20project/Project%20A/mlruns/0/185b5cf4e6374459b95248dbf7a9d01e/artifacts
+end_time: 1691574514860
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 185b5cf4e6374459b95248dbf7a9d01e
+run_name: suave-snail-276
+run_uuid: 185b5cf4e6374459b95248dbf7a9d01e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1691574514741
+status: 4
+tags: []
+user_id: roydh

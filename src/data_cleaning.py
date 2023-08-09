@@ -65,6 +65,8 @@ class DataDivideStrategy(DataStrategy):
             X_train, X_test, y_train, y_test = train_test_split(
                 X, y, test_size=0.2, random_state=42
             )
+            print("shape of the training data", X_train.shape)
+            print("shape of the training data", y_train.shape)
             return X_train, X_test, y_train, y_test
         except Exception as e:
             logging.error(e)
@@ -84,4 +86,14 @@ class DataCleaning:
         except Exception as e:
             logging.error("Error in handling data: {}".format(e))
             raise e
+
+    
+    # def __init__(self, data: pd.DataFrame, strategy: DataStrategy) -> None:
+    #     """Initializes the DataCleaning class with a specific strategy."""
+    #     self.df = data
+    #     self.strategy = strategy
+
+    # def handle_data(self) -> Union[pd.DataFrame, pd.Series]:
+    #     """Handle data based on the provided strategy"""
+    #     return self.strategy.handle_data(self.df)
     
