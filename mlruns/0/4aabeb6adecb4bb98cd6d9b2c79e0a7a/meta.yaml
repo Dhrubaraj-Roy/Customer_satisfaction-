@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/roydh/Desktop/ML2023/MLOps%20project/Project%20A/mlruns/0/4aabeb6adecb4bb98cd6d9b2c79e0a7a/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4aabeb6adecb4bb98cd6d9b2c79e0a7a
+run_name: bald-finch-832
+run_uuid: 4aabeb6adecb4bb98cd6d9b2c79e0a7a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695470503295
+status: 1
+tags: []
+user_id: dhruba

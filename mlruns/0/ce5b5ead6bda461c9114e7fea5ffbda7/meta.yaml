@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/roydh/Desktop/ML2023/MLOps%20project/Project%20A/mlruns/0/ce5b5ead6bda461c9114e7fea5ffbda7/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce5b5ead6bda461c9114e7fea5ffbda7
+run_name: bemused-cat-189
+run_uuid: ce5b5ead6bda461c9114e7fea5ffbda7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695476115005
+status: 1
+tags: []
+user_id: dhruba

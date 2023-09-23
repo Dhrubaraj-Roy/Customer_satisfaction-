@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/roydh/Desktop/ML2023/MLOps%20project/Project%20A/mlruns/0/815cdb977c414c138c590df95a1ba52c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 815cdb977c414c138c590df95a1ba52c
+run_name: victorious-boar-837
+run_uuid: 815cdb977c414c138c590df95a1ba52c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695476444562
+status: 1
+tags: []
+user_id: dhruba

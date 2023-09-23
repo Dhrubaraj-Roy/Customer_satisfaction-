@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/roydh/Desktop/ML2023/MLOps%20project/Project%20A/mlruns/0/300913d7bc8c417eae037557be56f3b8/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 300913d7bc8c417eae037557be56f3b8
+run_name: delicate-skink-28
+run_uuid: 300913d7bc8c417eae037557be56f3b8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695476010648
+status: 1
+tags: []
+user_id: dhruba

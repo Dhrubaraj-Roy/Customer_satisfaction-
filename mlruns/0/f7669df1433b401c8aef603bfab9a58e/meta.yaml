@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/roydh/Desktop/ML2023/MLOps%20project/Project%20A/mlruns/0/f7669df1433b401c8aef603bfab9a58e/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f7669df1433b401c8aef603bfab9a58e
+run_name: judicious-wolf-813
+run_uuid: f7669df1433b401c8aef603bfab9a58e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695476844722
+status: 1
+tags: []
+user_id: dhruba
