@@ -6,7 +6,7 @@
 
 ### 🧭 Navigation
 <p align="center">
-  <a href="#1. Introduction">Introduction</a> •
+  <a href="#1. introduction">Introduction</a> •
   <a href="#🚀 MLflow Pipeline Architecture">MLflow Pipeline Architecture</a> •
   <a href="# 🛠️ Technology Stack"> 🛠️ Technology Stack</a> •
   <a href="#🚀 Model Deployment "> 🚀 Model Deployment </a> •
