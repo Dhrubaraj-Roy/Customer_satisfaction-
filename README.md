@@ -5,15 +5,14 @@
 [![MLflow](https://img.shields.io/badge/MLflow-3.0-red)](https://mlflow.org)
 
 ### 🧭 Navigation
-- [Introduction](#1-introduction)
-- [MLflow Pipeline Architecture](#mlflow-pipeline-architecture)
-- [Technology Stack](#technology-stack)
-- [Setup & Installation](#setup--installation)
-- [Model Deployment](#model-deployment)
-- [Making Predictions](#making-predictions)
-- [Contributions](#contributions)
-- [License](#license)
-
+<p align="center">
+  <a href="#1. Introduction">Introduction</a> •
+  <a href="#🚀 MLflow Pipeline Architecture">MLflow Pipeline Architecture</a> •
+  <a href="# 🛠️ Technology Stack"> 🛠️ Technology Stack</a> •
+  <a href="#🚀 Model Deployment "> 🚀 Model Deployment </a> •
+  <a href="#💡 Making Predictions"> 💡 Making Predictions</a>
+  <a href="#🤝 Contributions"> 💡 Making Predictions</a>
+</p>
 
 ## 1. Introduction
 
